@@ -22,16 +22,28 @@ while True:
         break
 
     if distancia <= 5:
-        print('Está quente...')
+        print('Está muito muito muito quente...')
+        erros += 1
+
+    elif distancia <= 10:
+        print('Está muito quente...')
         erros += 1
 
     elif distancia <= 15:
+        print('Está ficando quente...')
+        erros += 1
+
+    elif distancia <= 20:
         print('Está morno...')
         erros += 1
 
-    elif distancia <= 30:
-        print('Está frio...')
+    elif distancia <= 25:
+        print('Está ficando gelado...')
         erros += 1
+
+    elif distancia <= 35:
+        print('Está gelado...')
+        erros += 1    
 
     else:
         print('Está congelando...')
