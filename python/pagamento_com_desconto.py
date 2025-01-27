@@ -92,4 +92,4 @@ else:
 
     else:
         print(f'A compra não alterou o valor, ficando {valor_compra_sem_vip} reais')
-    exit()
+        exit()
