@@ -1,3 +1,4 @@
+package logica;
 public class Operadores {
     
     //Rodar comando principal 
