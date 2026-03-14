@@ -18,5 +18,7 @@ public class IF_Exercicio_07 {
             System.out.println("Ano não é bissexto.");
         }
         
+        entrada.close();
+
     }
 }
