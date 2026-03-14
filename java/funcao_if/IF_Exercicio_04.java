@@ -17,6 +17,9 @@ public class IF_Exercicio_04 {
         else{
             System.out.println("O número é invalido.");
         }
+
+        entrada.close();
+        
     }
 
 }

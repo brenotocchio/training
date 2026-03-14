@@ -11,7 +11,7 @@ public class IF_Exercicio_05 {
         System.out.println("Digite um número: ");
         int numero = entrada.nextInt();
 
-        if (numero % 3 == 0 && numero % 3 == 0){
+        if (numero % 3 == 0 && numero % 5 == 0){
             System.out.println("O número digitado é múltiplo de 3 e 5 ao mesmo tempo.");
         }
 
@@ -19,7 +19,7 @@ public class IF_Exercicio_05 {
             System.out.println("número digitado não é múltiplo de 3 e 5 ao mesmo tempo.");
         }
 
-
+        entrada.close();
 
     }
 }

@@ -24,6 +24,8 @@ public class IF_Exercicio_03 {
             System.out.println("Os números são iguais.");
         }
 
+        entrada.close();
+
     }
 
 }
