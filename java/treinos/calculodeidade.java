@@ -1,6 +1,7 @@
 package treinos;
 
 public class calculodeidade {
+    
     public static void main(String[] args) {
 
         final int ANO_ATUAL = 2026; //Mostra ano atual
