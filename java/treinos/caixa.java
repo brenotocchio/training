@@ -21,7 +21,7 @@ public class caixa {
                 switch (choose) {
                     case 1:
 
-                        System.out.println("Saldo atual: " + saldo);
+                        System.out.println("Saldo atual: " + saldo + "\n");
                         continue;
                     
                     case 2:
@@ -29,14 +29,19 @@ public class caixa {
                         double deposit = entrada.nextDouble();
 
                         saldo+= deposit;
+                        System.out.println("\n");
                         continue;
 
                     case 3:
                         System.out.println("Digite quanto você deseja sacar: ");
                         double saque = entrada.nextDouble();
 
-                        saldo-= saque;
-                        continue;
+                        if (saque > saldo) {
+                            System.out.println("Você não tem saldo suficiente para sacar\n");
+                        }
+                        else
+                            saldo-= saque;
+                            continue;
 
                     case 4:
                         System.out.println("Saindo do sistema...");
