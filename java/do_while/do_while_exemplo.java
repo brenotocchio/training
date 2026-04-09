@@ -80,6 +80,9 @@ public class do_while_exemplo {
 
         System.out.println("Número aceito: " + numero);
 
+        entrada.close();
+        entrada2.close();
+
     }
 
 }
