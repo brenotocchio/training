@@ -47,5 +47,23 @@ public class For_Exemplo02 {
 
         }
 
+        System.out.println();
+
+        List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+        for (int numero : numeros ) {
+
+            if (numero % 2 == 0) {
+                
+                System.out.println(numero + " é par");
+
+            }
+            else
+                System.out.println(numero + " é impar");
+            
+        }
+
+        entrada.close();
+
     }
 }
