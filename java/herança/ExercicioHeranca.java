@@ -23,20 +23,20 @@ class Funcionario {
     }
     
 
-    void addAumento(double valor){
+    public void addAumento(double valor){
         salario += valor;
     }
 
-    void ganhoAnual(){
-
+    public double ganhoAnual(){
+        return salario * 12;
     }
 
 }
 
 class Assistente extends Funcionario{
-
-    void ganhoAnual(){
-        
+    
+    public double ganhoAnual(){
+        return super.ganhoAnual() + 1000;
     }
 
 }
@@ -46,12 +46,12 @@ public class ExercicioHeranca {
         
         Assistente assistente = new Assistente();
 
-        assistente.setNome("João");
+        assistente.setNome("Breno");
         assistente.setSalario(3000);
         assistente.addAumento(500);
 
         System.out.println("Nome: " + assistente.getNome());
-        System.out.println("Salário: " + assistente.getSalario());
+        System.out.println("Salário anual: " + assistente.ganhoAnual());
 
     }
 }
