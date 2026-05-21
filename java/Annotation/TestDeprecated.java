@@ -2,7 +2,7 @@ package Annotation;
 
 class InformaRegras {
     
-    // @Deprecated
+    @Deprecated
     public void mostrarRegrasParaAposentadoria(){
         System.out.println("Regras para Aposentadoria");
     }
@@ -14,6 +14,9 @@ class InformaRegras {
 }
 
 public class TestDeprecated {
+
+    @SuppressWarnings("deprecation")
+    
     public static void main(String[] args) {
         
         InformaRegras regras = new InformaRegras();
