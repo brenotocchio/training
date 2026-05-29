@@ -1,9 +1,9 @@
 package Generics;
 
-class Carrinho {
+class Carrinho001 {
     private String modelo;
 
-    public Carrinho(String modelo){
+    public Carrinho001(String modelo){
         this.modelo = modelo;
     }
 
@@ -12,10 +12,10 @@ class Carrinho {
     }
 }
 
-class Boneca {
+class Boneca001 {
     private String nome;
 
-    public Boneca(String nome){
+    public Boneca001(String nome){
        this.nome = nome; 
     }
 
